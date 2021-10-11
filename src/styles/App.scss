@@ -1,0 +1,16 @@
+body {
+  background-color: #060326;
+  color: white;
+}
+
+.Footer {
+  background-color: rgba(255, 255, 255, 0.12);
+  height: 10rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
