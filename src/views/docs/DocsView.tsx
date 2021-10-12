@@ -1,9 +1,9 @@
 import React from 'react';
 
-export const SwapView = () => {
+export const DocsView = () => {
   return (
     <>
-      <h1>Swap</h1>
+      <h1>Docs</h1>
     </>
   );
 };
