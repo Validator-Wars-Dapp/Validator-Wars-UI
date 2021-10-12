@@ -21,6 +21,7 @@ a {
   line-height: 25px;
   letter-spacing: 0em;
   text-align: center;
+  border-bottom: 5px solid transparent;
 
 }
 
@@ -54,15 +55,19 @@ a:hover {
   justify-content: center;
   align-items: center;
   padding: 20px 30px;
+  border-radius: 100px;
+  background-color: $secondary-background;
+}
 
+#Wallet {
   position: absolute;
   width: 274.5px;
   height: 58px;
   right: 10px;
   top: 31px;
-  border: 0.5em solid transparent;
+
+  background: $play-color;
   border-radius: 100px;
-  border-image: $play-color;
-  border-image-slice: 1;
-  background-color: $secondary-background;
+  padding: 0.7em;
+  align-items: center;
 }

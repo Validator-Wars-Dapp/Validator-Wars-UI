@@ -5,8 +5,10 @@ export const WalletInfo = () => {
     const walletAddress = useState("");
 
     return (
-        <div className="WalletInfo">
-            0 mGen {walletAddress} <BiWallet />
+        <div id="Wallet">
+            <div className="WalletInfo">
+                0 mGen {walletAddress} <BiWallet />
+            </div>
         </div>
     );
 };
